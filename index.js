@@ -20,3 +20,9 @@ let hen = {
     }
 }
 
+
+Object.setPrototypeOf(dog,animal)
+Object.setPrototypeOf(hen,animal)
+hen.eat()
+dog.eat()
+
