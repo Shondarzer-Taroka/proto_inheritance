@@ -25,7 +25,7 @@ Object.setPrototypeOf(dog,animal)
 Object.setPrototypeOf(hen,animal)
 hen.eat()
 dog.eat()
-
+dog.eat()
 //  // // in constructor
 
 function Animal(name) {
